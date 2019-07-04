@@ -1,0 +1,215 @@
+
+/* ------ ESTILOS GENERALES -------- */
+body {
+    background: url(./image/iron.svg) no-repeat;
+    background-position-y: -580px;
+    background-position-x: 90px;
+    font-family:'Roboto Mono', monospace;
+}
+
+h1 {
+    font-size: 4em;
+}
+h4 {
+    color: rgb(238, 146, 146);
+    text-transform: uppercase;
+}
+h5 {
+    font-size: 1.5em;
+}
+ul {
+    list-style: none;
+}
+ul a {
+    text-decoration: none;
+}
+.white {
+    color: white;
+}
+.grey {
+    color: rgb(41, 40, 49);
+}
+.grey-light {
+    color: rgb(143, 141, 141);
+}
+.button {
+    border: 1px white solid;
+    border-radius: 8%;
+    padding: 10px;
+}
+
+
+/* ----- ESTILOS ESPECÍFICOS ------- */
+.bar-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 300px;
+}
+.bar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 750px;
+    font-size: .9em;
+    font-family: Arial;
+}
+.flag {
+    width: 20px;
+}
+.hero {
+    text-align: center;
+}
+span {
+    color: rgb(71, 177, 226);
+}
+.info-curso {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.btn-relleno {
+    background: rgb(71, 177, 226);
+    text-decoration: none;
+    padding: 30px 120px;
+    border-radius: 5px;
+}
+.logos {
+    text-align: center;
+    border-top: 1px rgb(197, 196, 196) 
+}
+.logos p {
+    color: rgb(197, 196, 196);
+    margin-top: 120px;
+    font-family: Arial;
+}
+.logos ul {
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+}
+.logos ul img {
+    filter: grayscale();
+    width: 100%;
+}
+.data {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+.data li {
+    width: 22%;
+}
+.data h2 {
+    font-size: 4em;
+}
+.data p {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    margin-top: -50px;
+}
+.image {
+    display: flex;
+    justify-content: space-around;
+}
+.box-image {
+    width: 70%;
+}
+.photo {
+    box-shadow: 10px 5px 10px 10px rgb(194, 194, 194);
+    width: 100%;
+    margin-left: 100px;
+}
+.comillas {
+    width: 10%;
+    box-shadow: 8px 8px 8px 5px rgb(194, 194, 194);
+}
+.comillas-icon {
+    width: 10%;
+}
+.testimonio {
+    font-size: 1.5em;
+    color: orange;
+    list-style: 10px;
+    font-style: italic;
+    margin-bottom: 90px;
+}
+.name {
+    color: rgb(56, 56, 56);
+    font-size: 0.6em;
+    margin-bottom: -10px;
+}
+.more {
+    font-size: 0.6em;
+}
+.why {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.why h2 {
+    font-size: 2.5em;
+}
+.flex {
+    display: flex;
+}
+.flex article {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.why-info {
+    margin-left: 20px;
+    width: 70%;
+    font-size: 1em;
+    line-height: 30px;
+    font-family: Arial;
+}
+.courses {
+    background: rgb(248, 248, 248);
+    padding-top: 20px;
+    height: 650px;
+  
+}
+.courses h2 {
+    font-size: 2.5em;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.courses h3 {
+    font-size: 2em;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.parra{
+    margin: -20px 80px 0 80px;
+    font-size: 1.2em;
+    font-family: Arial;
+}
+.bootcamps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.bootcamps h5 {
+    margin-top: -20px;
+    font-size: 2em;
+}
+.bootcamps p {
+    margin: -30px 0 100px 0;
+}
+.bton-trans {
+    background: transparent;
+    color: rgb(71, 177, 226);
+    text-decoration: none;
+    padding: 30px 120px;
+    border: rgb(71, 177, 226) 2px solid;
+    border-radius: 5px;
+}
+.mouse:hover {
+    background-color: white;
+    box-shadow: 8px 8px 8px 5px rgb(194, 194, 194);
+}
+.bton-trans:hover {
+    background-color:rgb(71, 177, 226);
+    color: white;
+
+}
